@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    white-space: nowrap;
+}
+.container-fluid{
+    white-space: nowrap;
+}
+#logo{
+    margin-left: 200px;
+    width: 40%;
+}
+#xiala li{
+    color: #000;
+}
+#xiala a{
+    padding: 20px;
+}
+#xiala a:focus{
+    background-color: white;
+}
+#xiala li:hover{
+    background: #7d8389 ;
+    color: white;
+}
+button:focus{
+    background: white;
+}
+#tupian{
+    margin-top: 80px;
+    padding: 0px;
+}
+#tupian1{
+    padding: 0px;
+}
+#carouselExampleIndicators{
+    margin-top: 110px;
+    padding: 0xp;
+}
+#zimu{ 
+    background-color: rgba(244, 235, 235,0.7);
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin-top: -710px;
+    margin-left: -15px;
+    
+}
+#zimu h1{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+/* div div{ 
+    border: solid 1px red;
+}
+
+.col{
+    height: 15em;
+    padding: 0px;
+} */
+.xinxi{
+    background-color:rgb(48, 48, 144);
+    width: 35%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 14%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.xinxi h3{margin-top: 10px;}
+.xinxi1{
+    background-color:rgb(48, 48, 144);
+    width: 35%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.xinxi1 h3{margin-top: 10px;}
+#tupianbanner img{
+    padding: 5px;
+    margin-left: 5%;
+}
+.ProductlineImg{
+    text-align: center;
+    
+}
+.ProductlineLogo{
+	margin: auto;
+}
+.ProductlineLogo h2{
+    text-shadow: 2px 2px 2px rgb(174, 144, 144);
+    font-weight: bold;
+}
+.SeparationLine{
+    width: 20%;
+    background-color: rgb(250, 208, 93);
+    height: 5px;
+    margin: auto;
+    position: absolute;
+    margin-left: 39%;
+}
+.ProductCase{
+    display: inline-block;
+}
+#Productcasebutton{
+    margin-left: 45%;
+}
+#Productcasebutton2{
+    margin-left: 45%;
+}
+#Productcasebutton3{
+    margin-left: 46%;
+}
+.Informationbarimage{
+    background-image: url(../img/img/index_b6.jpg);
+    height: 378px;
+    width: 100%;
+}
+.Informationcolumninformation li{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 200px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.Informationcolumninformation h3,p{
+    text-align: center;
+    margin-top: 30px;
+}
+.Informationcolumninformation p{
+    line-height: 25px;
+    font-size: 10px;
+}
+.InformationbarLogo li{
+    display: inline-block;
+}
+#InformationbarLogo1{
+    position: absolute;
+    margin-left: 1px;
+    margin-top: -320px;
+}
+#InformationbarLogo2{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -320px;
+}
+#InformationbarLogo3{
+    position: absolute;
+    margin-left: 970px;
+    margin-top: -320px;
+}
+#BrandCharmImage{
+    width: 80%;
+    height: 300px;
+    margin-left: 50px;
+}
+#BrandCharmImage1{
+    margin-top: 60px;
+    margin-left: 42%;
+}
+#BrandCharmImage2{
+    /* margin-top: 60px; */
+    margin-left: 42%;
+}
+.BrandCharmText{
+    line-height: 25px;
+    font-size: 15px;
+}
+.BrandCharmText1 h2,h6{
+    text-align: center;
+}
+#Productcasebutton1{
+    margin-left: 42%;
+}
+#ProductlineImg{
+    margin: auto;
+    border: 1px solid #ffa;
+    box-shadow: 10px 10px 30px rgb(143, 143, 143);
+}
+#NewsCenterBgd{
+    background-color: #adaaaa;
+    height: 460px;
+}
+.NewsCenterline{
+    background-color: rgb(248, 227, 131);
+    width: 25%;
+    height: 2px;
+}
+.FAQline{
+    margin: auto;
+}
+.FAQline h2{
+    text-shadow: 2px 2px 2px rgb(174, 144, 144);
+    font-weight: bold;
+}
+.questiondiv{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+}
+#NewsCenterImg{
+    margin-top: 10px;
+}
+#NewsCenterTextCorol{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+#questiondiv1{
+    background-color: rgb(233, 227, 227);
+}
+#questiondiv1 h4{
+    line-height: 50px;
+    border: solid 1px #c7c7c7;
+}
+#questiondiv2{
+    margin-top: 20px;
+    word-spacing: 800px;
+}
+#questiondiv3 h6{
+    word-spacing: 750px;
+    margin-left: -210px;
+}
+.questionLine{
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+}
+.questiondiv{
+    border: solid 1px #c7c7c7;
+    height: 550px;
+}
+#jiantou1{
+    margin-left: 720px;
+}
+#jiantou2{
+    margin-left: 655px;
+}
+#jiantou3{
+    margin-left: 735px;
+}
+#jiantou4{
+    margin-left: 705px;
+}
+#jiantou5{
+    margin-left: 640px;
+}
+#jiantou6{
+    margin-left: 640px;
+}
+#jiantou7{
+    margin-left: 655px;
+}
+.creativespacebgd{
+    background-image: url("../img/img/index-space.jpg");
+    width: 100%;
+    height: 700px;
+}
+#creativespaceText{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-top: 100px;
+}
+#creativespaceText1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: -20px;
+}
+.creativespace1{
+    width: 15%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 100px;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.creativespace1 h4,h6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top:20px;
+}
+.creativespace2{
+    width: 15%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 2%;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.creativespace2 h4,h6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top:20px;
+}
+.creativespace3{
+    width: 15%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 2%;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.creativespace3 h4,h6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top:20px;
+}
+.creativespace4{
+    width: 15%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 2%;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+.creativespace4 h4,h6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top:20px;
+}
+.callme{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(36, 37, 58);
+}
+.callme1{
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.callline{
+    width: 10%;
+    height: 3px;
+    background-color: rgb(243, 241, 145);
+    margin-left: 20px;
+}
+.callme2{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+
+}
+.dizhi{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.dianhua{
+    display: inline-block;
+    margin-left: 100px;
+}
+.youxiang{
+    display: inline-block;
+    margin-left: 100px;
+}
+#dizhiText{
+    margin-top: 27px;
+}
+#callmeText1{
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.enterdiv{
+    display: inline-block;
+    margin-left: 500px;
+}
+#enter{
+    width: 85%;
+    display: inline-block;
+}
+#enter1{
+    display: inline-block;
+}
+.shurukuang{
+    margin-left: 20%;
+    width: 60%;
+}
+#shurukuang1{
+    width:35%;
+    margin-left: 0%;
+}
+#shurukuang2{
+    width:35%;
+    margin-left: 50%;
+    margin-top: -37px;
+}
+#shurukuang3{
+    width:85%;
+    height: 100px;
+}
+#fasong{
+    margin-left: 40%;
+    width: 15%;
+    height: 50px;
+}
+#fasong p{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+#fengexian{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#fengexian1{
+    margin-left: 250px;
+}
+.lianjie ul {
+    /* line-height: 100px; */
+    
+}
+.lianjie{
+    margin-left: 17%;
+}
+.lianjie ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.shouye{
+    margin-left: 25%;
+    width: 45%;
+}
+.shouye li{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+#fute{
+    margin-left: 23%;
+}
+#lshb{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(48, 48, 144);
+}
+#lshb1{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(190, 146, 117);
+}
+#lshbText{
+    margin-top: 10px;
+    font-size:20px;
+}
+#lshbText1{
+    font-size:10px;
+}

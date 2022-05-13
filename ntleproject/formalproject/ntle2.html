@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>耐特利尔家具bootstra4框架实现</title>
+    <link rel="stylesheet" href="css/ntle2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="./js/ntle2.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script> 
+</head>
+<body>
+    <div class="container-fluid">
+        <!--导航栏的实现-->
+        <nav class="navbar navbar-expand-xl navbar-dark   fixed-top" style="background-color: #D5010f ; width: 100%;">
+            <div  class="navbar-brand" id="logodiv">    
+                <img src="img/img/logo/jia6.jpg" id="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#xiala">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="xiala" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="color: rgb(255, 255, 255);"><p>张登齐</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(255, 255, 255);"><P>产品系列</P></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(255, 255, 255);"><P>产品魅力</P> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(255, 255, 255);"><P>新闻中心</P> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(255, 255, 255);"><P>品牌服务</P> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: rgb(255, 255, 255);"><P>联系我们</P> </a>
+                    </li>
+                </ul>  
+            </div>
+        </nav> 
+        <!--导航栏的实现-->
+        <!--轮播效果的实现-->
+        <div class="row">
+            <div class="col-xs-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img/index_banner_01.jpg" class="k w-100" alt="...">
+                    <div class="Carouselsubtitles">
+                        <h1 style="font-weight: bolder;">一站式服务，省时 省心 省力</h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img/index_banner_02.jpg"class=" w-100" alt="...">
+                    <div class="Carouselsubtitles">
+                        <h1 style="font-weight: bolder;">张登齐 </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img/index_banner_03.jpg" class=" w-100" alt="...">
+                    <div class="Carouselsubtitles">
+                        <h1 style="font-weight: bolder;">21开发2138010141 </h1>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+        <br><br>
+        <!--轮播效果的实现-->
+        <!--享受尊贵服务，五星级配送安装的实现-->
+        <div class="row justify-content-around">
+            <div class="col-sm-10 col-md-10 col-lg-4 col-xl-4" id="psdiv">
+                <p id="title" style="font-size: 20px;">享受VIP尊贵服务项目</p>
+                <p id="text" style="font-size: 13px;">您只需一个电话，我们专业的设计顾问便会不辞距离，提供上门家访服务，视
+                    乎您的具体需求，协助您更快捷，方便，称心的选购到最合适的产品。</p>
+            </div>
+            <div class="col-sm-10 col-md-10 col-lg-4 col-xl-4" id="psdiv">
+                <p id="title" style="font-size: 20px;">五星级配送安装</p>
+                <p id="text" style="font-size: 13px;">每一件产品售出时都经过质量检测人员的严格检验，务求把产品完好无损地送
+                    到您的家中;我们聘请最专业的物流配送公司，高效，守时地为您提供全球性的运输服务。</p>
+            </div>
+        </div>
+        <br><br>
+        <!--享受尊贵服务，五星级配送安装的实现-->
+        <!--产品系列的实现--> 
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img src="img/img/1650096062(1).png" alt="" width="15%" id="ProductSeries">
+                <p id="ProductSeriesText" style="font-size: 25px;">产品系列</p>
+                <p id="ProductSeriesText1" style="font-size: 15px;">在家具设计中有些突破常规的设计往往能让人过目不忘，如果是运用在家里那么最终效果也是令人称赞的，如果
+                    你喜欢新奇的事物，喜欢新奇的设计，完全可以自己尝试将自己的家引入与众不同的设计</p>
+                <br>
+                <button type="button" class="btn btn-outline-dark" id="ProductSeriesButton">了解更多 ></button>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="main">
+                        <img src="img/img/index_a1.jpg" alt="" width="90%" id="ProductSeriesImg">
+                        <div class="center">
+                            <h4>原橡木系列</h4>
+                            <h6>原始材质，自然之美</h6 >
+                            <a href="">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="main">
+                        <img src="img/img/index_a2.jpg" alt="" width="90%" id="ProductSeriesImg1">
+                        <div class="center">
+                            <h4>原橡木系列</h4>
+                            <h6>原始材质，自然之美</h6 >
+                            <a href="">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="main">
+                        <img src="img/img/index_a3.jpg" alt="" width="90%" id="ProductSeriesImg2">
+                        <div class="center">
+                            <h4>原橡木系列</h4>
+                            <h6>原始材质，自然之美</h6 >
+                            <a href="">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="main">
+                        <img src="img/img/index_a4.jpg" alt="" width="90%" id="ProductSeriesImg3">
+                        <div class="center">
+                            <h4>原橡木系列</h4>
+                            <h6>原始材质，自然之美</h6 >
+                            <a href="">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!--产品系列的实现-->
+        <!--产品案例的实现-->
+            <div class="row">
+              <div class="ProductlineLogo">
+                <h2>产品案例</h2>
+              </div>
+            </div>
+            <div class="SeparationLine"></div><br><br><br>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="img/img/services_d01.jpg" alt="" width="90%" id="ProductlineImg">
+                    <br><br>
+                    <h4 id="ProductlineText">美的明湖花园</h4>
+                  <br>
+                  <h6 id="ProductlineText1">美的明湖花园项目位于佛山市高明区西江新城中轴线，为高明首个智慧社区，地处有
+                “最美艺术公园之称的明湖公园”旁...</h6>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="img/img/services_d02.jpg" alt="" width="90%" id="ProductlineImg">
+                    <br><br>
+                    <h4 id="ProductlineText">大未来样板房—新东方风</h4>
+                  <br>
+                  <h6 id="ProductlineText1">上海的历史背景成就独特的租界风格，中西并融于同一地景，东西文化激为殊异的
+                    人文景观。现今兴起的"新上海风"，强调不带夸饰的低调奢华，不以传统的金银龙</h6>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="img/img/services_d03.jpg" alt="" width="90%" id="ProductlineImg">
+                    <br><br>
+                  <h4 id="ProductlineText">北浅山别墅-温馨雅致的品位空间</h4>
+                  <br>
+                  <h6 id="ProductlineText1">整个E户型以素净高雅的米色为主调，加上银灰洞石，进口枫木等高档建材，在现代的
+                    设计手法下，透过优雅细腻的布局，融合秀丽宜人的天然洞景，为户主打造高级定制
+                  </h6>
+                </div>
+            </div>
+            <br><br><br>
+            <button type="button" class="btn btn-outline-dark" id="ProductSeriesButton1">了解更多 ></button>
+            <br><br><br>
+        <!--产品案例的实现-->
+        <!--先行赔付，非质量问题退货换货，比价十倍退差价的实现-->
+            <div class="row" id="xxpf">
+                <div class="col-sm-2 col-md-4 col-lg-3 col-xl-3" id="xxpfdiv">
+                    <h5 id="xxpfText">先行赔付</h5>
+                    <p id="xxpfText1" style="font-size: 10px;">现行赔付指耐特利尔受理消费者投诉后对符合条件消费者代经销商先行垫付赔偿金。
+                        当商户销售的商品出现质量或服务上的问题时，您可带合同到企业投诉并要求先行赔付。</p>
+                    <div id="xxpfImg">
+                        <img src="img/img/index_b2.png" alt="" width="70%">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-3 col-xl-3" id="xxpfdiv1">
+                    <h5 id="xxpfText">非质量问题退货换货</h5>
+                    <p id="xxpfText1" style="font-size: 10px;">自签订耐特利尔家具销售之日起30天内，甲方由于喜好等原因发生变化，
+                        可以要求退换（特别定制商品、专门为顾客定购的进口商品、注明为特价、特供商品除外）。</p>
+                    <div id="xxpfImg">
+                        <img src="img/img/index_b3.png" alt="" width="70%">
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-3 col-xl-3" id="xxpfdiv2">
+                    <h5 id="xxpfText">比价10倍退差价</h5>
+                    <p id="xxpfText1" style="font-size: 10px;">在签订本合同后一周内，甲方发现所购商品（必须是同品牌、同规格、非特价品、非处理品的价格高于郑州市其他市场），并能提供确凿证据的，乙方将高出的部分十倍返还给甲方。</p>
+                    <div id="xxpfImg">
+                        <img src="img/img/index_b4.png" alt="" width="70%">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        <!--先行赔付，非质量问题退货换货，比价十倍退差价的实现-->
+        <!--品牌魅力的实现-->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img src="img/img/index_c1.jpg" alt="" width="70%" id="BrandCharm">
+                <br><br>
+                <p id="BrandCharmText" style="font-size: 15px;">&emsp;&emsp;&emsp;北京耐特利尔家具有限公司1988年创办，是一家大型集设计、生产、销售于一体的家具企业，坐落于北京市昌平区回龙观
+                    ，自建占地面积三万八千余平方米的标准厂房，公司拥有雄厚的技术实力及先进设备，拥有一大批专业技术人才，崇尚人性化
+                    设计，产品力求简洁，流畅，贴近现代人的生活，产品有原橡木系列、柚木系列、胡桃木系列、麦白系列、布艺沙发等，为保证
+                    产品质量，公司从德国引进了板式生产线，采用优质进口五金配件，实行高标准生产管理，确保出库合格率98%以上，“优质高效”
+                    是我们的服务承诺，训练有素的安装及售后服务队伍将为您排除一切后顾之忧。</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <p id="BrandCharmImg"><img src="img/img/1650866808(1).png" alt="" width="15%"></p>
+                <br>
+                <p id="BrandCharmText1" style="font-size: 25px;">品牌魅力</p>
+                <p id="BrandCharmText2" style="font-size: 15px;">一流的员工、一流的设备、一流的材料铸就一流的耐特利尔家具，我们有专业的团队，能为您提供高质量的服务。</p>
+                <br>
+                <p id="BrandCharmButton"><button type="button" class="btn btn-outline-dark">了解更多 ></button></p>
+            </div>
+        </div>
+        <br><br><br>
+        <!--品牌魅力的实现-->
+        <!--企业荣誉的实现-->
+        <div class="row">
+            <div class="ProductlineLogo">
+              <h2>企业荣誉</h2>
+            </div>
+          </div>
+          <div class="SeparationLine"></div><br><br><br>
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+              <img src="img/img/brand_c01.jpg" alt="" id="Enterprisehonor">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+              <img src="img/img/brand_c02.jpg" alt="" id="Enterprisehonor1">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+              <img src="img/img/brand_c03.jpg" alt="" id="Enterprisehonor2">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+              <img src="img/img/brand_c04.jpg" alt="" id="Enterprisehonor3">
+            </div>
+          </div>
+          <br><br>
+          <p id="BrandCharmButton"><button type="button" class="btn btn-outline-dark">了解更多 ></button></p>
+        <!--企业荣誉的实现-->
+        <!--新闻中心的实现-->
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <p id="NewsCenter"><img src="img/img/16500960622.png" alt="" width="17%"></p>
+                <p id="NewsCenterText" style="font-size: 25px; font-weight: 600;" >新闻中心</p>
+                <h6 id="NewsCenterText">了解耐特利尔家具新闻动态，了解耐特利尔家具别样的精彩，把握脉搏，把握方向，传递热点。</h6>
+                <br>
+                <p id="BrandCharmButton"><button type="button" class="btn btn-outline-dark">了解更多 ></button></p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" id="NewsCenterDiv">
+                <p id="NewsCenterText1" style="font-size: 25px; color: rgb(255, 255, 255); font-weight: 600;">最新资讯</p>
+                <div id="NewsCenterline"></div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" id="NewsCenterDiv1">
+                        <img src="img/img/rqi1 (1).png" alt="">
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p id="NewsCenterText2" style="color: rgb(255, 255, 255); font-size: 15px; font-weight: 500;">匠心所致 耐特利尔家具喜获高新技术企业认定</p>
+                        <p id="NewsCenterText3" style="color: rgb(255, 255, 255); font-size: 10px; font-weight: 400;">创新改变生活方式，技术改变未来生活，二十多年来耐特利尔家具在创新探索的路上坚持不懈。</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" id="NewsCenterDiv1">
+                        <img src="img/img/rqi1 (2).png" alt="">
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p id="NewsCenterText2" style="color: rgb(255, 255, 255); font-size: 15px; font-weight: 500;">耐特利尔家具喜获国家工商总局“守合同重信用”企业公示资格</p>
+                        <p id="NewsCenterText3" style="color: rgb(255, 255, 255); font-size: 10px; font-weight: 400;">进日，国家工商行政管理总局网发布了工商总局2016-2017年度守合同重信用企业公示名单，耐...</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" id="NewsCenterDiv1">
+                        <img src="img/img/rqi1 (3).png" alt="">
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p id="NewsCenterText2" style="color: rgb(255, 255, 255); font-size: 15px; font-weight: 500;">耐特利尔家具荣获上市公司竞争力公信力调查评选“最佳社会”</p>
+                        <p id="NewsCenterText3" style="color: rgb(255, 255, 255); font-size: 10px; font-weight: 400;">12月19日，由大众证券报，东台市人民政府联合主办，新浪财经，亨通伟业协办的第十一届重...</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" id="NewsCenterDiv1">
+                        <img src="img/img/rqi1 (3).png" alt="">
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p id="NewsCenterText2" style="color: rgb(255, 255, 255); font-size: 15px; font-weight: 500;">耐特利尔家具荣获2016中国企业社会责任优秀奖</p>
+                        <p id="NewsCenterText3" style="color: rgb(255, 255, 255); font-size: 10px; font-weight: 400;">12月12日，由《公益时报》社主办的2016第六届中国企业社会责任卓越奖颁奖典礼在京举行。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!--新闻中心实现-->
+        <!--常见问题的实现-->
+        <div class="row">
+            <div class="ProductlineLogo">
+              <h2>常见问题</h2>
+            </div>
+          </div>
+          <div class="SeparationLine"></div><br><br>
+          <div class="row">
+          <div class="col-sm-11 col-md-11 col-lg-11 col-xl-11" id="commonproblem">
+           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="commonproblemDiv">
+               <p id="commonproblemText" style="font-size: 20px;">常见问题解答</p>
+           </div>
+           <div class="row">
+               <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <p style="font-size: 17px; font-weight:600;">问题</p>
+               </div>
+               <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                   <p style="font-size: 17px; font-weight:600;">答案</p>
+            </div>
+            <div class="row" id="commonproblemDiv3"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">你们是什么品牌？</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                   <a href="#"><p style="font-size: 15px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">你们的家具是在哪生产的？</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                <a href="#"><p style="font-size: 17px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">如何联系你们？</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                <a href="#"><p style="font-size: 17px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">你们的家具环保吗</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                <a href="#"><p style="font-size: 17px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">你们的家具用的是什么板材？</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                <a href="#"><p style="font-size: 17px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+            <div class="col-sm-4 col-md-4 col-lg-9 col-xl-9" id="commonproblemDiv1">
+                <a href="#"><p style="font-size: 15px;">你们通常什么时间上门量尺？</p></a>
+               </div>
+               <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="commonproblemDiv2">
+                <a href="#"><p style="font-size: 17px;">↓</p></a>
+            </div>
+            <div class="row" id="commonproblemDiv4"></div>
+           </div>
+          </div>
+        </div>
+        <br><br>
+        <p id="BrandCharmButton"><button type="button" class="btn btn-outline-dark">了解更多 ></button></p>
+        <br><br>
+        <!--常见问题的实现-->
+        <!--创意空间定制的实现-->
+        <div class="row">
+            <div id="creativityspacebaimg">
+                <p id="creativityspaceText" style="font-size: 50px; color: rgb(255, 255, 255);">Creative Space</p>
+                <p id="creativityspaceText1" style="font-size: 40px; color: rgb(255, 255, 255);">创意空间定制</p>
+                <div class="row" id="creativityspaceDiv">
+                <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2" id="creativityspaceDiv1">
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 25px; margin:20px 0px 0px 0px;">预约量房设计</p>
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 20px; margin:20px 0px 0px 0px;">Design room<br>reservation amount</p>
+                    <p style="text-align: center;"><img src="img/img/qianbi.png" alt="" width="18%" style="margin: 10px 0px 0px 0px;"></p>
+                    <!--素材版权来自https://www.iconfont.cn/search/index?searchType=icon&q=%E9%93%85%E7%AC%94-->
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2" id="creativityspaceDiv2">
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 25px; margin:20px 0px 0px 0px;">定制体验店</p>
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 20px; margin:20px 0px 0px 0px;">Custom Shop<br>Experience</p>
+                    <p style="text-align: center;"><img src="img/img/fangzi.png" alt="" width="18%" style="margin: 10px 0px 0px 0px;"></p>
+                    <!--素材版权来自https://www.iconfont.cn/search/index?searchType=icon&q=%E6%88%BF%E5%AD%90&page=1&fromCollection=1&fills=&tag=-->
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2" id="creativityspaceDiv3">
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 25px; margin:20px 0px 0px 0px;">业务咨询</p>
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 20px; margin:20px 0px 0px 0px;">Business<br>Consilting</p>
+                    <p style="text-align: center;"><img src="img/img/liaotian.png" alt="" width="18%" style="margin: 10px 0px 0px 0px;"></p>
+                    <!--素材版权来自https://www.iconfont.cn/search/index?searchType=icon&q=%E8%81%8A%E5%A4%A9&page=1&fromCollection=1&fills=&tag=-->
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2" id="creativityspaceDiv4">
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 25px; margin:20px 0px 0px 0px;">更多案例</p>
+                    <p id="creativityspaceText2" style="color: #ffffff; font-size: 20px; margin:20px 0px 0px 0px;">More Classic<br>Case</p>
+                    <p style="text-align: center;"><img src="img/img/jiahao.png" alt="" width="18%" style="margin: 10px 0px 0px 0px;"></p>
+                    <!--素材版权来自https://www.iconfont.cn/search/index?searchType=icon&q=%E5%8A%A0%E5%8F%B7&page=1&fromCollection=1&fills=&tag=-->
+                </div>
+            </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!--创意空间定制的实现-->
+        <!--绿色环保材料，100%品质保障,30日内无理由退换货的实现-->
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3" id="Green">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <img src="img/img/zan.png" alt="" width="50%" style="margin: 20px 0px 0px 25px;">
+                        <!--素材地址来自https://www.iconfont.cn/search/index?searchType=icon&q=%E8%B5%9E&page=1&fromCollection=1&fills=&tag=-->
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p style="color: rgb(255, 255, 255); font-size: 17px; margin: 20px 0px 0px 0px;">绿色环保材料</p>
+                        <p style="color: rgb(255, 255, 255); font-size: 13px; margin: 10px 0px 0px 0px;">确保所售家具100%环保，无污染，不含任何有<br>害物质</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3" id="QualityAssurance">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <img src="img/img/dunpai.png" alt="" width="50%" style="margin: 20px 0px 0px 25px;">
+                        <!--素材地址来自https://www.iconfont.cn/search/index?searchType=icon&q=%E7%9B%BE%E7%89%8C&page=1&fromCollection=1&fills=&tag=--> 
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p style="color: rgb(255, 255, 255); font-size: 17px; margin: 20px 0px 0px 0px;">100%品质保障</p>
+                        <p style="color: rgb(255, 255, 255); font-size: 13px; margin: 10px 0px 0px 0px;">耐特利尔家具所售的商品出厂均经过严格质检，发货前会有配送人员进行二次检验。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3" id="return">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <img src="img/img/didian.png" alt="" width="50%" style="margin: 20px 0px 0px 25px;">
+                        <!--素材地址来自https://www.iconfont.cn/search/index?searchType=icon&q=%E5%9C%B0%E7%82%B9&page=1&fromCollection=1&fills=&tag=-->
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p style="color: rgb(255, 255, 255); font-size: 17px; margin: 20px 0px 0px 0px;">30日内无理由退/换货</p>
+                        <p style="color: rgb(255, 255, 255); font-size: 13px; margin: 10px 0px 0px 0px;">承诺对于存在质量问题的商品提供无条件退换货，运费由我公司承担。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!--绿色环保材料，100%品质保障,30日内无理由退换货的实现-->
+        <!--联系我们的实现-->
+            <div class="row">
+                <div class="row" id="callme">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="callme1">
+                    <p style="font-size: 30px; color: rgb(255, 255, 255); margin: 40px 0px 0px 0px;">联系我们</p>
+                    <div id="callmeline"></div>
+                    <div class="row" id="callmeDiv" style="margin: 100px;">
+                        <div class="col-sm-11 col-md-8 col-lg-11 col-xl-3" style="margin: 0px 0px 0px 80px;">
+                            <p id="callmeText" style="color:rgb(255, 245, 102); font-size: 17PX;">地址</p>
+                            <p id="callmeText" style="color:rgb(255, 255, 255); font-size: 15PX;">北京市昌平区东小口镇小辛庄工业区</p>
+                        </div>
+                        <div class="col-sm-11 col-md-8 col-lg-11 col-xl-3 " style="margin: 0px 0px 0px 80px;">
+                            <p id="callmeText" style="color:rgb(255, 245, 102); font-size: 17PX;">电话</p>
+                            <p id="callmeText" style="color:rgb(255, 255, 255); font-size: 15PX;">400-888-1916<br>010-81703311/22/77</p>
+                        </div>
+                        <div class="col-sm-11 col-md-8 col-lg-11 col-xl-3" style="margin: 0px 0px 0px 80px;">
+                            <p id="callmeText" style="color:rgb(255, 245, 102); font-size: 17PX;">邮箱</p>
+                            <p id="callmeText" style="color:rgb(255, 255, 255); font-size: 15PX;">zzdddqqq2001@163.com<br>2435563017@qq.com</p>
+                        </div>
+                    </div>
+                    <p style="font-size: 25px; color: rgb(255, 255, 255);">留言给我们</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-10 col-md-10 col-lg-3 col-xl-2"  id="exampleFormControlInput1">
+                            <input type="email" class="form-control" placeholder="姓名：">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-3 col-xl-2"  id="exampleFormControlInput1">
+                            <input type="email" class="form-control" placeholder="邮箱：">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-10 col-md-10 col-lg-7 col-xl-7"  id="exampleFormControlInput2">
+                            <input type="email" class="form-control" placeholder="邮箱：">
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-warning" style="text-align: center; height: 40px;"><p style="color: rgb(255, 255, 255);">发送留言</p></button>
+                    <div id="callmeline1"></div>
+                    <div class="row">
+                        <ul id="callmediv">
+                            <li id="callmeText1" style="color: rgb(255, 255, 255);">友情链接：</li>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">集美家具</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">居然之家</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">红星美凯龙</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">欧凯龙</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">爱家家具</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">银生家具</li></a>
+                            <a href="#"><li id="callmeText1" style="color: rgb(255, 255, 255);">月星家具</li></a>
+                        </ul>
+                        <div id="callmeline1"></div>
+                        <div class="shouye">
+                            <ul>
+                              <li style="display: inline-block; color: rgb(255, 246, 115);">首页</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">/</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">产品系列</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">/</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">品牌魅力</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">/</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">新闻中心</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">/</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">品牌服务</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">/</li>
+                              <li style="display: inline-block; color: rgb(255, 255, 255);">联系我们</li>
+                            </ul>
+                          </div>
+                          <h6 id="fute" style="color: rgb(255, 255, 255);">CopyRight 2003-2009 北京耐特利尔家具有限公司 版权所有 京ICP备120 12006号 中企动力提供技术支持</h6>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        <!--联系我们的实现-->
+    </div>
+</body>
+</html>

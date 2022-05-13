@@ -1,0 +1,470 @@
+/* div div{ 
+    border: solid 1px red;
+}
+.col{
+    height: 15em;
+    padding: 0px;
+    margin: auto;
+} */
+.row{
+    /* width: 100%; */
+    overflow: hidden;
+    padding: 0px;
+    margin: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-width: 576px;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.nav-link{
+    height: 100px;
+    line-height: 70px;
+}
+.navbar-collapse{
+    height: 100px;
+}
+.navbar-brand{
+    margin-left: 15%;
+}
+.navbar{
+    height: 105px;
+}
+.navbar-nav{
+    margin-left: 15%;
+}
+#xiala li{
+    color: #000;
+}
+#xiala a{
+    padding: 20px;
+}
+#xiala a:focus{
+    background-color: rgb(255, 255, 255);
+}
+#xiala li{
+    background: #D5010f ;
+}
+#xiala li:hover{
+    background: #7d8389 ;
+}
+#xiala p:hover{
+    color: rgb(0, 0, 0);
+}
+.Carouselsubtitles{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(245, 245, 2451,0.6);
+    position: absolute;
+    margin-top: -570px;
+}
+.Carouselsubtitles h1{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.carousel-inner{
+    position: relative;
+}
+#psdiv{
+    background-color: rgb(52, 82, 165);
+    height: 9em;
+}
+#psdiv{
+    background-color: rgb(52, 82, 165);
+}
+#title{
+    font-weight: 600;
+    margin:0px 20px 0px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 82, 165);
+    text-align: center;
+    margin-top: 0.7em;
+}
+#text {
+    margin:0px 20px 0px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 82, 165);
+    text-align: center;
+    margin-top: 0.7em;
+}
+#ProductSeries{
+    margin-top: 0.7em;
+    margin-left: 40%;
+}
+#ProductSeriesText{
+    font-weight: 600;
+    margin-left: 40%;
+}
+#ProductSeriesText1{
+    margin:0px 20px 0px 20px;
+    text-align: center;
+}
+#ProductSeriesButton{
+    margin-left: 40%;
+}
+#ProductSeriesButton1{
+    margin-left: 45%;
+}
+#ProductSeriesImg{
+    margin: 0px 20px 0px 20px;
+}
+#ProductSeriesImg1{
+    margin:0px 0px 0px 0px;
+}
+#ProductSeriesImg2{
+    margin:20px 0px 0px 20px;
+}
+#ProductSeriesImg3{
+    margin:20px 0px 0px 0px;
+}
+#main{
+    transition: all 1s;
+}
+.center{
+    width: 60%;
+    height: 6em;
+    position: relative;
+    display: none;
+    margin-top: -150px;
+    margin-left: 50px;
+    background-color: rgba(210,219,87,0.5);
+}
+#main:hover .center{
+    display: block;
+}
+#main:hover{
+    transform: scale(0.95);
+    /* height: 3300px; */
+}
+.ProductlineLogo{
+	margin: auto;
+}
+.ProductlineLogo h2{
+    text-shadow: 2px 2px 2px rgb(174, 144, 144);
+    font-weight: bold;
+}
+.SeparationLine{
+    width: 20%;
+    background-color: rgb(250, 208, 93);
+    height: 5px;
+    margin: auto;
+    position: absolute;
+    margin-left: 39%;
+}
+#ProductlineImg{
+    margin:0px 0px 0px 20px;
+}
+#ProductlineText{
+    margin:0px 0px 20px 20px;
+}
+#ProductlineText1{
+    font-weight: 100;
+    margin:0px 0px 20px 20px;
+}
+#xxpf{
+    background-image: url("../img/img/index_b5.jpg");
+    width: 102%;
+    height: 30em;
+}
+#xxpfdiv{
+    margin:170px 0px 0px 140px;
+    background-color: rgb(255, 255, 255);
+    height: 10em;
+    /* position: relative; */
+}
+#xxpfdiv1{
+    background-color: rgb(255, 255, 255);
+    height: 10em;
+    margin:170px 0px 0px 30px;
+    /* position: relative; */
+}
+#xxpfdiv2{
+    background-color: rgb(255, 255, 255);
+    height: 10em;
+    margin:170px 0px 00px 30px;
+    /* position: relative; */
+}
+#xxpfImg{
+    width: 35%;
+    position: absolute;
+    /* float: left; */
+    margin-top: -180px;
+    margin-left: 20px;
+}
+#xxpfText{
+    text-align: center;
+    margin-top: 9%;
+}
+#xxpfText1{
+    text-align: center;
+}
+#BrandCharm{
+    margin:0px 0px 0px 140px;
+}
+#BrandCharmText{
+    margin:0px 0px 0px 40px;
+}
+#BrandCharmImg{
+    text-align: center;
+    margin:40px 0px 0px 0px;
+}
+#BrandCharmText1{
+    font-weight: 600;
+    text-align: center;
+}
+#BrandCharmText2{
+    margin:0px 40px 0px 40px;
+    text-align: center;
+}
+#BrandCharmButton{
+    text-align: center;
+}
+#Enterprisehonor{
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .3s;
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .3s;
+    transform: translate(10px,10px);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor1{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor1:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .3s;
+    transform: translate(10px,10px);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor2{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor2:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .3s;
+    transform: translate(10px,10px);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor3{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 10px 30px  rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#Enterprisehonor3:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: all .3s;
+    transform: translate(10px,10px);
+    box-shadow: 5px 10px 30px rgb(143, 143, 143);
+    margin:0px 0px 0px 35px;
+}
+#NewsCenter{
+    text-align: center;
+}
+#NewsCenterText{
+    text-align: center;
+}
+#NewsCenterDiv{
+    background-color: #c4cbd1;
+    height: 470px;
+    z-index: 1;
+}
+#NewsCenterText1{
+    margin:20px 0px 0px 20px;
+}
+#NewsCenterline{
+    margin:10px 0px 0px 20px;
+    width: 150px;
+    height: 2px;
+    background-color: bisque;
+}
+#NewsCenterDiv1{
+    margin:20px 0px 0px 35px;
+}
+#NewsCenterText2{
+    margin:20px 0px 0px 20px;
+}
+#NewsCenterText3{
+    margin:5px 0px 0px 20px;
+}
+#commonproblem{
+    border: 1px solid rgb(0, 0, 0,0.3);
+    margin:0px 50px 0px 50px;
+    height: 600px;
+}
+#commonproblemDiv{
+    background-color: #dee9e9;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0,0.3);
+}
+#commonproblemText{
+    margin:7px 0px 0px 10px;
+}
+#commonproblemDiv1{
+    margin:20px 0px 0px 30px;
+}
+#commonproblemDiv2{
+    margin:20px 0px 0px 0px;
+}
+#commonproblemDiv3{
+    width: 94%;
+    height: 4px;
+    background-color: #e4e2e2;
+    margin:0px 0px 0px 25px;
+}
+#commonproblemDiv4{
+    width: 94%;
+    height: 2px;
+    background-color: #e4e2e2;
+    margin:0px 0px 0px 25px;
+}
+#creativityspacebaimg{
+    background-image: url("../img/img/index-space.jpg");
+    width: 100%;
+    height: 700px;
+}
+#creativityspaceText{
+    margin:70px 0px 0px 0px;
+    text-align: center;
+}
+#creativityspaceText1{
+    text-align: center;
+}
+#creativityspaceDiv{
+    margin:100px 0px 0px 0px;
+}
+#creativityspaceDiv1{
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv1:hover{
+    background-color: rgb(236, 193, 127);
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv2{
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv2:hover{
+    background-color: rgb(236, 193, 127);
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv3{
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv3:hover{
+    background-color: rgb(236, 193, 127);
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv4{
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceDiv4:hover{
+    background-color: rgb(236, 193, 127);
+    margin:0px 0px 0px 90px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    height: 200px;
+}
+#creativityspaceText2{
+    text-align: center;
+}
+#Green{
+    background-color: rgb(64, 64, 201);
+    margin:0px 0px 0px 90px;
+    height: 130px;
+}
+#QualityAssurance{
+    background-color: rgb(236, 181, 109);
+    margin:0px 0px 0px 90px;
+}
+#return{
+    background-color: rgb(64, 64, 201);
+    margin:0px 0px 0px 90px;
+}
+#callme{
+    background-color: rgb(29, 31, 54);
+    width: 102%;
+    height: 1200px;
+}
+#callme1{
+    text-align: center;
+}
+#callmeline{
+    margin-left: 47%;
+    width: 5%;
+    height: 2px;
+    background-color: rgb(255, 245, 102);
+}
+#exampleFormControlInput1{
+    margin-left: 22%;
+}
+#exampleFormControlInput2{
+    margin: 50px 0px 0px 0px;
+    height: 150px;
+    margin-left: 22%;
+}
+#exampleFormControlInput2 input{
+    width: 95%;
+    height: 150px;
+}
+#callmeline1{
+    border:1px dashed rgb(255, 255, 255);
+    height:0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+#callmediv{
+    height: 1px;
+    margin-left: 25%;
+}
+#callmeText1{
+    display: inline-block;
+    margin: 10px;
+}
+.shouye{
+    margin-left: 25%;
+    width: 45%;
+}
+.shouye li{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+#fute{
+    margin-left: 23%;
+}
